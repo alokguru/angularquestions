@@ -1,3 +1,18 @@
 Question: Why prioritize TypeScript over JavaScript in Angular?
 Answer: TypeScript is developed by Microsoft and it is a superset of JavaScript. The issue with JS is that it isn’t a true OOP language.
-As the JS code doesn’t follow the Prototype Pattern, the bigger the size of the code the messier it gets. Hence, it leads to difficulties in maintainability as well as reusability. To offset this, TypeScript follows a strict OOP approach.
+As the JS code doesn’t follow the Prototype Pattern, the bigger the size of the code the messier it gets. 
+Hence, it leads to difficulties in maintainability as well as reusability. To offset this, TypeScript follows a strict OOP approach.
+
+Question: What is ViewEncapsulation and how many ways are there do to do it in Angular?
+Answer: To put simply, ViewEncapsulation determines whether the styles defined in a particular component will affect the entire 
+application or not. Angular supports 3 types of ViewEncapsulation:
+
+Emulated – Styles used in other HTML spread to the component
+Native – Styles used in other HTML doesn’t spread to the component
+None – Styles defined in a component are visible to all components of the application
+
+Question: What is the process called by which TypeScript code is converted into JavaScript code?
+Answer: It is called Transpiling. Even though TypeScript is used for writing code in Angular applications, it gets internally transpiled 
+into equivalent JavaScript.
+
+
