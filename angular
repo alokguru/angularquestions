@@ -1,0 +1,4 @@
+Question: Why prioritize TypeScript over JavaScript in Angular?
+Answer: TypeScript is developed by Microsoft and it is a superset of JavaScript.The issue with JS is that it isn’t a true OOP language. 
+As the JS code doesn’t follow the Prototype Pattern, the bigger the size of the code the messier it gets. Hence, it leads to difficulties in maintainability as well as reusability. 
+To offset this, TypeScript follows a strict OOP approach.
